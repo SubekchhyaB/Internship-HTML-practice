@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+                <html lang="en">
+                <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Food Site</title>
+                <link rel="stylesheet" href ="styles.css">
+                </head>
+                <body>
+                <header>
+                <h1 id="food-site">FOOD SITE</h1>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facere ullam voluptas ab debitis,
+                quibusdam omnis pariatur dolorum dolore laboriosam, doloremque minima delectus molestiae suscipit
+                possimus voluptate neque cumque cupiditate?
+                </p>
+                </header>
+
+                <main>
+                <section>
+                <div align="center">
+                <img src="food1.jpg" alt="Pasta Image">
+                <br><strong>OUR SPECIAL ITEM</strong>
+                <p>
+                The items displayed in <span class="special-item">red</span> are available in our restaurant,
+                and the items displayed in <span style="color: darkolivegreen; font-weight: bold;">green</span> are our specials.
+                </p>
+                </div>
+                </section>
+
+                <section>
+                <div align="center">
+                <div><p id="menu-header" class="menu-header">
+                <b>HERE IS OUR MENU</b></p>
+                <ol type="1">
+                <li>Pizza</li>
+                <li>KFC</li>
+                <li>Chillies</li>
+                <li>Pasta</li>
+                <li>Burger</li>
+                <li>MOMO</li>
+                <li>Chowmin</li>
+                <li>French Fries</li>
+                <li>Lassi</li>
+                <li>Nachos</li>
+                </ol>
+                </div></div>
+                <div>
+                <div align="center">
+                <h1>.....HERE WE GO.....</h1>
+                </div>
+                <form class="abc">
+                <p id="menu" class="menu"><b>RECOMMENDED ITEMS</b></p>
+                <ul>
+                <li>Pasta</li>
+                <li>Burger</li>
+                <li>MOMO</li>
+                </ul>
+
+                <p><b>Choose your favorite dish:</b></p>
+
+                <input type="radio" id="pasta" name="fav_dish" value="Pasta">
+                <label for="pasta">Pasta</label><br>
+                <input type="radio" id="burger" name="fav_dish" value="Burger">
+                <label for="burger">Burger</label><br>
+                <input type="radio" id="momo" name="fav_dish" value="Momo">
+                <label for="momo">Momo</label><br>
+                <button id="submitBtn" onclick="submitFormM()">Submit</button>
+                </form>
+                </div>
+
+                <script>
+                function submitFormM() {
+                alert("GREAT CHOICE!");
+                }
+                </script>
+                </section>
+                </main>
+                <br>
+                <footer><div align="center">
+                <h2 id="latest-items">Latest Item</h2>
+                <p>KOREAN CUISINE</p>
+
+                <video height="300" width="600" controls>
+                <source src="Kimchi.mp4" type="video/mp4">
+                <source src="Kimchi.mp4" type="video/ogg">
+                <embed type="video/webm" src="Kimchi.mp4" width="600" height="300">
+                </video>
+                <p>
+                Video courtesy of
+                <a href="https://www.youtube.com/watch?v=9LhtldUz4Xg&pp=ygUoaXRhbGlhbiBwYXN0YSByZWNpcGllIGxlc3MgdGhhbiBhIG1pbnV0ZQ%3D%3D" target="_blank">Kimchi</a>.
+                </p>
+                </div>
+                <form>
+                <table style="width:100%">
+                <caption><b>RESERVE YOUR TABLE</b></caption>
+                <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>No. of People</th>
+                <th>Contact</th>
+                </tr>
+                <tr>
+                <td><div id="name" contenteditable="true"></div></td>
+                <td><div id="lname" contenteditable="true"></div></td>
+                <td><div id="number1" contenteditable="true"></div></td>
+                <td><div id="number2" contenteditable="true"></div></td>
+                </tr>
+                </table>
+                <button id="submitBtn" onclick="submitt()">Submit</button>
+                </form>
+
+                <script>
+                function submitt() {
+                alert("YOUR TABLE IS RESERVED!");
+                }
+                </script>
+                <br>
+                <form>
+                <caption><b>FEEDBACK</b></caption><br><br>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value=""autocomplete="off" required>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value="" autocomplete="off" required><br><br>
+                <label for="feedback">comments</label>
+                <input type="text" id="feedback" name="feedback" autocomplete="off" required><br>
+                <button id="submitBtn" onclick="submitForm()">Submit</button>
+                </form>
+
+                <script>
+                function submitForm() {
+                alert("Feedback submitted!");
+                }
+                </script>
+                </footer>
+
+                <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="lightblue" />
+                </svg>
+                <svg width="400" height="100">
+                <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+                </svg>
+                <BR><BR>
+                <aside>
+                <div align="center">
+                <a id="w3schools-link" href="https://www.w3schools.com">Visit W3Schools</a>
+                </div>
+                </aside>
+                </body>
+                </html>
+
+
+
+
+
